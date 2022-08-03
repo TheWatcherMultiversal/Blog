@@ -104,6 +104,12 @@ body {
   color: #9bff77;
 }
 
+.links_download2 {
+  text-decoration: none;
+  font-size: 1.25rem !important;
+  color: #9ff2ff;
+}
+
 .links_page {
   text-decoration: none;
   font-size: 1.25rem !important;
@@ -121,6 +127,19 @@ body {
   text-decoration: none;
   font-size: 1.25rem !important;
   color: #ffffff;
+}
+
+.commands_border {
+  background: #090909;
+  border-radius: 7px;
+  border-left-style: solid;
+  border-left-width: 0px;
+  margin-left: o;
+  padding-left: 15px;
+  font-size: 1.0rem !important;
+  margin-bottom: 1.5rem !important;
+  padding-top: 7px;
+  padding-bottom: 11px;
 }
 
 hr {
