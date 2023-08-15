@@ -64,6 +64,36 @@
   --bs-body-bg: #0f0f0f;
 }
 
+.card-portafolio {
+  
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #14121d;
+  background-clip: border-box;
+}
+
+.bg-portafolio {
+  background: #020614;
+}
+
+.bg_gradient {
+  background: rgb(4,1,18);
+  background: linear-gradient(0deg, rgba(4,1,18,1) 0%, rgba(1,6,22,1) 100%); 
+}
+
+.bg_gradient_inv {
+  background: rgb(2,6,20);
+  background: linear-gradient(0deg, rgba(2,6,20,1) 0%, rgba(10,10,10,1) 100%); 
+}
+
+.bg_gradient_r {
+  background: rgb(10,10,10);
+  background: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(4,1,18,1) 100%); 
+}
+
 *,
 *::before,
 *::after {
@@ -164,6 +194,48 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
+
+.social_portafolio {
+  margin: 2rem;
+}
+
+.social_portafolio:hover {
+  opacity: 60%;
+}
+
+.social_portafolio i {
+  font-size: 50px;
+}
+
+@media (max-width: 1000px) {
+
+  .social_portafolio {
+    margin: 1rem;
+  }
+
+  .social_portafolio i {
+    font-size: 35px;
+  }
+}
+
+.facebook_icon {
+  color: #6190ff;
+}
+
+.reddit_icon {
+  color: #ffae51;
+}
+
+.linkedin_icon {
+  color: #5bdeff;
+}
+
+.pdf_icon {
+  margin-left: 20px;
+  color: #fff;
+}
+
+
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
@@ -1610,7 +1682,7 @@ progress {
 
   .row-cols-xl-4 > * {
     flex: 0 0 auto;
-    width: 25%;
+    width: 40%;
   }
 
   .row-cols-xl-5 > * {
