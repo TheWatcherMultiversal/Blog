@@ -91,7 +91,7 @@
 
 .bg_gradient_r {
   background: rgb(10,10,10);
-  background: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(4,1,18,1) 100%); 
+  background: linear-gradient(0deg, rgba(15,15,15,1) 0%, rgba(4,1,18,1) 100%); 
 }
 
 *,
